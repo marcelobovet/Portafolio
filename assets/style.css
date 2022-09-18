@@ -1,0 +1,21 @@
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+#introduccion {
+    background-image: url(./img/intro-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 800px;
+}
+
+.card-img {
+    height: 350px;
+}
+
+/* section, header {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 100% !important;
+} */
