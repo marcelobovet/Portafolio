@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  font-family: Montserrat, arial;
+  color: black;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: Jakarta;
+  src: url(../public/webfonts/PlusJakartaSans-Medium.woff2) format('woff2'),
+    url(../public/webfonts/PlusJakartaSans-Medium.woff) format('woff');
+}
+
+.imgPoject {
+  transition: transform 0.3s ease-in-out;
+}
+
+.imgPoject:hover {
+  transform: translate(20px, 20px);
+}
