@@ -22,9 +22,11 @@ export const Header = () => {
         </div>
 
         <div className="flex flex-col items-start sm:flex-row sm:justify-start">
-          <button className="flex items-center text-sm gap-3 bg-indigo-100 hover:bg-opacity-80 text-indigo-500 py-2 px-4 rounded-lg font-semibold">
-            CV
-          </button>
+          <a download="CV Marcelo Bovet" href="./cv.pdf">
+            <button className="flex items-center text-sm gap-3 bg-indigo-100 hover:bg-opacity-80 text-indigo-500 py-2 px-4 rounded-lg font-semibold">
+              CV
+            </button>
+          </a>
         </div>
       </div>
     </main>
