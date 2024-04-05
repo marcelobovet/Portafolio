@@ -27,3 +27,28 @@ html {
 .imgPoject:hover {
   transform: translate(20px, 20px);
 }
+
+.btn-container {
+  position: relative;
+  display: inline-block;
+}
+
+.info-span {
+  position: absolute;
+  top: -50px; /* Ajusta la posición vertical según sea necesario */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.btn-container:hover .info-span {
+  opacity: 1;
+  pointer-events: auto;
+}
