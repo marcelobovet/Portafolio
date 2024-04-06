@@ -57,7 +57,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-start gap-3">
                 <a href="https://laboratoriocivico.vercel.app/" target="_blank" rel="noreferrer">
-                  <button className="bg-slate-90 dark:bg-white px-4 py-2 rounded-xl text-white dark:text-black text-xl font-bold flex justify-center items-center w-full transition-all hover:scale-105">
+                  <button className="bg-slate-900  dark:bg-white px-4 py-2 rounded-xl text-white  dark:text-black text-xl font-bold flex justify-center items-center w-full transition-all hover:scale-105">
                     Live
                   </button>
                 </a>
