@@ -10,6 +10,7 @@ body {
   color: black;
 }
 
+
 html {
   scroll-behavior: smooth;
 }
@@ -35,7 +36,7 @@ html {
 
 .info-span {
   position: absolute;
-  top: -50px; /* Ajusta la posición vertical según sea necesario */
+  top: -50px; 
   left: 50%;
   transform: translateX(-50%);
   background-color: white;
@@ -51,4 +52,12 @@ html {
 .btn-container:hover .info-span {
   opacity: 1;
   pointer-events: auto;
+}
+
+.tooltip { 
+  background-color: rgb(216, 216, 216) !important;
+  color: black;
+  padding: 2px !important;
+  border-radius: 5px;
+  color: black !important;
 }
